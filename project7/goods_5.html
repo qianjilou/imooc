@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>商品信息发布</title>
+<link rel="stylesheet" href="./css/goods.css" />
+<script src="./js/jquery.min.js"></script>
+<script src="./ueditor/ueditor.config.js"></script>
+<script src="./ueditor/ueditor.all.min.js"></script>
+</head>
+<body>
+<div class="goods">
+<div class="title">编辑商品信息</div>
+<form method="post" action="goods_5.php">
+<table class="table">
+	<tr><th class="th">商品名称：</th><td class="td">
+		<input type="text" name="title" /><span class="tip"></span>
+		<p class="rule">商品名称长度在3~50个字符之间。</p>
+	</td></tr>
+	<tr><th class="th">商品详情：</th><td class="td">
+		<script id="editor" name="description" type="text/plain"></script>
+	</td></tr>
+</table>
+<div class="act"><input type="submit" value="发布" /></div>
+</form>
+</div>
+<script>
+//载入编辑器
+UE.getEditor('editor');
+</script>
+</body>
+</html>

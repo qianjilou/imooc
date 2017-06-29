@@ -1,0 +1,14 @@
+<div class="crumbs">>>&nbsp;学生管理&nbsp;>>&nbsp;0427PHP就业班&nbsp;>>&nbsp;学生列表（第<?php echo $page; ?>页）</div>
+<table class="list">
+	<tr><th>学号</th><th>姓名</th><th>出生日期</th><th>详情</th></tr>
+	<?php for($i=$start_index;$i<=$end_index;++$i){ ?>			
+	<tr>
+		<td><?php echo $info[$i]['snum']; ?></td>
+		<td><?php echo $info[$i]['name']; ?></td>
+		<td><?php echo $info[$i]['birth']; ?></td>
+		<td><a href="./detail.php?id=<?php echo $i; ?>&page=<?php echo $page; ?>">点击查看详情</a></td>
+	</tr>
+	<?php } ?>
+</table>
+<div class="page"><?php echo showPage($page,$total_page,$perpage);?></div>
+<div class="face"><i class="face-left"></i><i class="face-center"></i><i class="face-right"></i></div>

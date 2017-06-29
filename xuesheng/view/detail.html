@@ -1,0 +1,51 @@
+<div class="detail">
+	<table>
+		<tr>
+			<th colspan="3"><?php echo $title; ?></th>
+		</tr>
+		<tr>
+			<td>姓　　名：</td>
+			<td><?php echo $name;?></td>
+		</tr>
+		<tr>
+			<td>出生日期：</td>
+			<td><?php echo $birth;?></td>
+		</tr>
+		<tr>
+			<td>年　　龄:</td>
+			<td><?php echo $age;?></td>
+		</tr>
+		<tr>
+			<td>学　　科:</td>
+			<td><?php echo $subject;?></td>
+		</tr>
+		<tr>
+			<td>学　　号:</td>
+			<td><?php echo $snum;?></td>
+		</tr>
+		<tr>
+			<td>星　　座:</td>
+			<td class="const">
+				<span><?php echo $const;?></span>
+				<img src="./images/<?php echo $lev.'.png';?>">
+			</td>
+		</tr>
+		<tr>
+			<td>个性标签:</td>
+			<td class="labels">
+			  <!--遍历学生个性标签并展示-->
+				<?php
+					foreach($labels as $v){
+						//定义数组保存标签块展示颜色
+						$class_name = array('blue','red','yellow','green');
+						$index = array_rand($class_name);
+						echo '<span class="'.$class_name[$index].'">'.$v.'</span>';
+					}
+				?>
+			 </td>
+		</tr>
+	</table>
+	<div class="icon-top"></div>
+	<div class="icon-bottom"></div>
+</div>
+<div class="return"><a href="index.php?page=<?php echo $page; ?>">&lt;&lt; 返回列表</a></div>

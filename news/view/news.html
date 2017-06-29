@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>新闻发布系统</title>
+<link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+<div class="box">
+	<div class="top">
+		<div class="title">新闻发布系统</div>
+		<div class="nav">
+			<a href="./add.php">发表新闻</a>
+		</div>
+	</div>
+	<div class="main">
+		<form method="post" action="delMutil.php">
+			<table class="news-list">
+				<tr><th>新闻标题</th><th width="250">发布时间</th><th width="200">操作</th></tr>
+				<?php foreach($data as $v):?>
+					<tr>
+						<td class="news-list-title">
+							<input type="checkbox" name="id[]" value="<?php echo $v['id'];?>" />
+							<a href="./show.php?id=<?php echo $v['id']; ?>" target="_blank"><?php echo $v['title'];?></a>
+						</td>
+						<td class="center"><?php echo $v['addtime'];?></td>
+						<td class="center"><a href="./edit.php?id=<?php echo $v['id']; ?>">编辑</a>　<a href="./del.php?id=<?php echo $v['id']; ?>" onclick="return confirm('确定要删除该新闻吗？');">删除</a></td>
+					</tr>
+				<?php endforeach;?>
+			</table>
+			<div class="action">
+				<button id="checkAll">全选</button>
+				<button id="checkReverse">反选</button>
+				<input type="submit" value="批量删除" />
+			</div>
+		</form>
+		<!-- 输出分页链接 -->
+		<div class="pagelist"><?php echo $page_html ?></div>
+	</div>
+</div>
+<script>
+//全选
+document.getElementById("checkAll").onclick = function(){
+	var ids = document.getElementsByName("id[]");
+	for(var i in ids){
+		ids[i].checked = true;
+	}
+	return false;
+};
+//反选
+document.getElementById("checkReverse").onclick = function(){
+	var ids = document.getElementsByName("id[]");
+	for(var i in ids){
+		ids[i].checked = !ids[i].checked;
+	}
+	return false;
+};
+</script>
+</body>
+</html>

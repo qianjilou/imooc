@@ -1,0 +1,18 @@
+<?php require './view/header.html'; ?>
+<div class="main-title">个人信息</div>
+<div class="main-content">
+	<?php if(isset($user_data)): ?>
+		<p>姓名：<?php echo $user_data['name']; ?></p>
+		<p>性别：<?php echo $user_data['gender']; ?></p>
+		<p>血型：<?php echo $user_data['blood']; ?></p>
+		<p>爱好：<?php echo implode('、',$user_data['hobby']) ?></p>
+		<p>个人简介：<?php echo nl2br($user_data['description']); ?></p>
+	<?php else: ?>
+		<p>请先编辑信息。</p>
+	<?php endif; ?>
+</div>
+<script>
+	//点亮当前菜单链接
+	setMenu('showinfo');
+</script>
+<?php require './view/footer.html';

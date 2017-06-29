@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>商品信息发布</title>
+<link rel="stylesheet" href="./css/goods.css" />
+<script src="./js/jquery.min.js"></script>
+</head>
+<body>
+<div class="goods">
+<div class="title">编辑商品信息</div>
+<table class="table">
+	<tr><th class="th">商品分类：</th><td class="td">
+		<select class="sel1"><option value="0">未选择</option></select>
+		<select class="sel2"><option value="0">未选择</option></select>
+		<select class="sel3"><option value="0">未选择</option></select>
+	</td></tr>
+	<tr><th class="th">商品名称：</th><td class="td">
+		<input type="text" name="title" /><span class="tip"></span>
+		<p class="rule">商品名称长度在3~50个字符之间。</p>
+	</td></tr>
+</table>
+<div class="act"><button>发布</button></div>
+</div>
+<script>
+console.log($("<div></div>").attr("value","a\"> type=\"a")[0]);
+
+$(function(){
+	//请求的PHP脚本路径
+	var url = "./goods_3.php";
+	//option默认情况下的内容
+	var option = '<option value="0">未选择</option>';
+	//保存jQuery对象
+	var $sel1 = $(".sel1");
+	var $sel2 = $(".sel2");
+	var $sel3 = $(".sel3");
+	//启动时自动载入第1个下拉菜单
+	ajaxSelect($sel1,"0");
+	//1级下列菜单的change事件
+	$sel1.change(function(){
+		var id = $(this).val();
+		if(id==="0"){
+			$sel2.html(option);
+		}else{
+			ajaxSelect($sel2,id);
+		}
+		$sel3.html(option);//清空3级菜单
+	});
+	//2级下列菜单的change事件
+	$sel2.change(function(){
+		var id = $(this).val();
+		if(id==="0"){
+			$sel3.html(option);
+		}else{
+			ajaxSelect($sel3,id);
+		}
+	});
+	//自动填充下拉菜单
+	function ajaxSelect($select,id){
+		$.getJSON(url,{"pid":id},function(data){
+			$select.html(option);
+			for(var i in data){
+				$select.append(createOption(data[i].id,data[i].name));
+			}
+		});
+	}
+	function createOption(value,text){
+		var $option = $('<option></option>');
+		$option.attr("value",value);
+		$option.text(text);
+		return $option;
+	}
+});
+</script>
+</body>
+</html>

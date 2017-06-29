@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script>
+ var btn=document.getElementById("btn");
+    btn.onclick=function(){
+        var xhr=getXhr();
+        xhr.open('post','03.php');
+        xhr.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+        var user=document.getElementById("user").value;
+        var pwd=document.getElementById("pwd").value;
+        xhr.send("user="+user+"&pwd="+pwd);
+        xhr.onreadystatechange=function(){
+        //获得服务器端当前状态
+        //alert(xhr.readyState);
+        //保证响应完成
+            if(xhr.readyState==4){
+                //保证这次请求必须成功
+                //alert(xhr.status);
+                if(xhr.status==200){
+                    //接收服务器端的数据
+                    var data=xhr.responseText;
+                    //测试
+                    console.log(data);
+                    }
+                }
+        }
+    };
+    function getXhr(){
+        var xhr=null;
+        if(window.XMLHttpRequest){
+            xhr=new XMLHttpRequest();
+        }else{
+            xhr=new ActiveXObject("Microsoft.XMLHttp");
+        }
+        return xhr;
+    }
+    </script>
+</head>
+<body>
+    <form id="myform" name="myform" action="03.php" method="post">
+        <table>
+            <tr>
+                <td>用户名：</td>
+                <td><input type="text" id="user" name="user"></td>
+            </tr>
+            <tr>
+                <td>密码：</td>
+                <td><input type="password" id="pwd" name="pwd"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="button" id="btn" value="登录"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

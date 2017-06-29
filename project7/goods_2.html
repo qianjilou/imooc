@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>商品信息发布</title>
+<link rel="stylesheet" href="./css/goods.css" />
+</head>
+<body>
+<div class="goods">
+<div class="title">编辑商品信息</div>
+<table class="table">
+	<tr><th class="th">商品名称：</th><td class="td">
+		<input type="text" name="title" /><span class="tip"></span>
+		<p class="rule">商品名称长度在3~50个字符之间。</p>
+	</td></tr>
+	<tr><th class="th">商品图片：</th><td class="td">
+		<form id="form">
+			<input type="file" name="image" />
+			<input type="submit" value="上传" />
+		</form>
+		<p>上传进度：<span class="progress"><i></i></span><span>0%</span></p>
+		<img class="thumb" style="display:none;" />
+	</td></tr>
+</table>
+<div class="act"><button>发布</button></div>
+</div>
+<script>
+//获取DOM对象
+var form = document.getElementById("form"); //表单
+var image = document.getElementsByName("image")[0]; //图片上传框
+var thumb = document.getElementsByClassName("thumb")[0]; //图片框
+var progress = document.getElementsByClassName("progress")[0];
+var barObj = progress.getElementsByTagName("i")[0]; //进度条
+var perObj = progress.nextSibling; //百分比
+//表单提交事件通过Ajax处理
+form.onsubmit = function(){
+	//如果没有选择文件则不进行上传
+	if(image.value===""){
+		alert("请先选择文件。");
+		return false;
+	}
+	//创建Ajax对象
+	var xhr = new XMLHttpRequest();
+	//上传进度
+	xhr.upload.onprogress = function(e){
+		var total = e.total; //数据总大小
+		var loaded = e.loaded; //已经上传的大小
+		var per = Math.floor(loaded/total*100); //计算百分比
+		barObj.style.width = per + "%";
+		perObj.innerHTML = per + "%";
+	};
+	xhr.onreadystatechange = function(){
+		if(xhr.readyState==4){
+			if(xhr.status!==200){
+				alert('图片上传失败');
+			}else{
+				var xmlobj = xhr.responseXML;
+				if(xmlobj===null){
+					alert('图片上传失败');
+				}else{
+					//上传完成，显示图片
+					var flag = xmlobj.getElementsByTagName("flag")[0].firstChild.nodeValue;
+					var message = xmlobj.getElementsByTagName("message")[0].firstChild.nodeValue;
+					if(flag==="ok"){
+						thumb.src = message;
+						thumb.style.display = "block";
+					}else{
+						alert(message);
+					}
+				}
+			}
+		}
+	};
+	//收集表单数据
+	var fd = new FormData(form);
+	xhr.open("post","goods_2.php");
+	xhr.send(fd);
+	return false; //阻止浏览器的表单提交操作
+};
+</script>
+</body>
+</html>
