@@ -1,6 +1,6 @@
 ##Welcome to use MarkDown
 
-![image](https://raw.githubusercontent.com/qianjilou/hr/master/2.jpg "百度图片")
+![image](https://raw.githubusercontent.com/qianjilou/hr/master/2.jpg "百度图片")![image](https://raw.githubusercontent.com/qianjilou/hr/master/2.jpg "百度图片")![image](https://raw.githubusercontent.com/qianjilou/hr/master/2.jpg "百度图片")
 
 ##链接
 
