@@ -95,23 +95,23 @@
         </tr>
         <tr>  
             <td>10、面向对象</td>  
-            <td>BootStrap简介、全局CSS样式、CSS组件、JavaScript插件、BootStrap应用案例</td>
+            <td>面向对象概述、面向对象实现、封装、继承、多态、对象遍历、对象序列化、反射机制、命名空间</td>
         </tr>
         <tr>  
             <td>11、PDO扩展</td>  
-            <td>BootStrap简介、全局CSS样式、CSS组件、JavaScript插件、BootStrap应用案例</td>
+            <td>PDO简介、PDO类、PDOStatement类、PDO预处理、PDO事务处理、PDO异常处理、PDO属性、封装PDO类</td>
         </tr>
         <tr>  
             <td>12、Smarty</td>  
-            <td>BootStrap简介、全局CSS样式、CSS组件、JavaScript插件、BootStrap应用案例</td>
+            <td>Smarty概述、模板设计、程序设计</td>
         </tr>
         <tr>  
             <td>13、MVC设计模式</td>  
-            <td>BootStrap简介、全局CSS样式、CSS组件、JavaScript插件、BootStrap应用案例</td>
+            <td>MVC设计模式、搭建自定义MVC框架</td>
         </tr>
         <tr>  
             <td>14、博客项目</td>  
-            <td>BootStrap简介、全局CSS样式、CSS组件、JavaScript插件、BootStrap应用案例</td>
+            <td>项目开发流程、数据表数据、后台实现、前台实现、扩展功能</td>
         </tr>
 </table> 
 
