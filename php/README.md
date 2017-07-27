@@ -170,6 +170,66 @@
 
 ### 第四阶段：项目实战
 
+<table border="2" bordercolor="black" cellspacing="0" cellpadding="5">  
+        <tr>   
+            <th>主讲内容</th>  
+            <th>技术要点</th>
+        </tr>  
+        <tr>   
+            <td>1、Linux</td>  
+            <td>Linux系统概述、VMware虚拟机的安装、CentOS系统安装、Shell指令、VI编辑器、Linux内核分析、用户和组、文件操作、网络配置、FTP、LAMP环境</td> 
+        </tr>  
+        <tr>  
+            <td>2、Nginx与服务器集群</td>  
+            <td>Nginx概述、LNMP的安装与配置、缓存配置、压缩设置、负载均衡</td>  
+        </tr>  
+        <tr>  
+            <td>3、Memcache</td>  
+            <td>大型项目优化概述、Memcache软件的安装、Memcache指令详解、使用PHP操作Memcache、Memcache应用场景</td>
+        </tr>
+        <tr>  
+            <td>4、Redis</td>  
+            <td>jRedis概述、Redis支持的数据类型、持久化功能、Redis主从模式、PHP操作Redis、消息队列、秒杀功能实现</td>
+        </tr>
+        <tr>  
+            <td>5、MongoDB</td>  
+            <td>MongoDB概述、MongoDB进阶、MongoDB的权限机制、使用PHP操作MongoDB</td>
+        </tr>
+        <tr>  
+            <td>6、微信开发</td>
+            <td>微信公众平台概述、微信开发前期准备、微信6大接口、微信6大回复接口、微信LBS接口开发、微信机器人开发、响应式设计、综合案例</td>
+        </tr>
+        <tr>  
+            <td>7、WebApp开发</td>  
+            <td>HyBrid App概述、HyBrid App开发前期准备、开发工具与模拟器、广场舞App的框架分析、手机APP前端界面设计、APP后台程序开发、VueJS框架、音乐播放、下拉刷新</td>
+        </tr>
+        <tr>  
+            <td>8、网站开发</td>  
+            <td>MySQL优化概述、MySQL存储引擎、列类型的选择、数据库设计三范式与逆范式、MySQL中的执行计划、数据库中索引的设计、MySQL中的其他功能、MySQL分表技术、Sphinx、读写分离</td>
+        </tr>
+        <tr>  
+            <td>9、Laravel</td>  
+            <td>Laravel概述、Laravel的安装、目录分析、控制器、路由、视图、HTTP请求与响应、数据库、模型、Laravel实用项，Redis数据库、消息列队</td>
+        </tr>
+        <tr>  
+            <td>10、在线教育平台</td>  
+            <td></td>
+        </tr>
+        <tr>
+            <th>学习目标</th>  
+            <td>
+可掌握的核心能力：<br/>
+（1）能够对系统架构进行分析和设计；
+（2）控制开发产品质量，参与制定开发规范；<br/>
+（3）能对现有项目进行性能调试；
+（4）参与网站项目需求分析，根据项目需求设计提供优化技术方案；<br/>
+（5）改进公司现有框架，提高产品质量；<br/><br/>
+可解决的现实问题：<br/>
+服务器高级部署优化，互联网常用技术、mysql高级、服务器集群、视频直播技术。<br/>
+真正掌握互联网系统架构设计思想，可实现对门户网站、商城系统、在线教育平台等项目进行系统性能调优
+</td>
+        </tr>
+</table> 
 
 ---
 
