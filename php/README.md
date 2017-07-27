@@ -33,6 +33,8 @@
 
 ---
 
+### 第二阶段：核心编程
+
 <table border="2" bordercolor="black" cellspacing="0" cellpadding="5">  
         <tr>   
             <th>主讲内容</th>  
@@ -106,3 +108,70 @@
 能解决常规业务逻辑，PHP操作mysql增删改查，动态网页数据展示，能够手写mvc框架/td>
         </tr>
 </table> 
+
+---
+### 第三阶段：高级应用
+
+<table border="2" bordercolor="black" cellspacing="0" cellpadding="5">  
+        <tr>   
+            <th>主讲内容</th>  
+            <th>技术要点</th>
+        </tr>  
+        <tr>   
+            <td>1、XML</td>  
+            <td>XML概述、XML语法、SimpleXML、Xpath</td> 
+        </tr>  
+        <tr>  
+            <td>2、JavaScript高级</td>  
+            <td>数据类型、函数、词法分析、作用域链、事件编程、canvas绘图、面向对象、JSON对象、原型链、设计模式、正则表达式</td>  
+        </tr>  
+        <tr>  
+            <td>3、Ajax</td>  
+            <td>Ajax概述、Ajax对象、GET与POST请求、缓存问题、Ajax与XML、Ajax与JSON、跨域请求</td>
+        </tr>
+        <tr>  
+            <td>4、jQuery</td>  
+            <td>jQuery简介、jQuery选择器、属性操作、事件编程、jQuery特效、文档处理、插件机制、jQuery中的Ajax</td>
+        </tr>
+        <tr>  
+            <td>5、SVN</td>  
+            <td>SVN概述、SVN软件安装、SVN使用详解、配置多仓库与权限控制、SVN钩子程序</td>
+        </tr>
+        <tr>  
+            <td>6、接口编程</td>
+            <td>支付接口、配送接口、短信接口、QQ互联接口、邮件接口、地图接口、自定义接口</td>
+        </tr>
+        <tr>  
+            <td>7、页面静态化</td>  
+            <td>页面静态化概述、真静态技术、伪静态技术、真静态与伪静态的比较</td>
+        </tr>
+        <tr>  
+            <td>8、ThinkPHP</td>  
+            <td>ThinkPHP框架概述、控制器、视图、模型、实用项</td>
+        </tr>
+        <tr>  
+            <td>9、商城项目</td>  
+            <td>商城系统概述、数据表设计、后台设计、前台设计、会员设计、购物车设计、订单设计</td>
+        </tr>
+        <tr>
+            <th>学习目标</th>  
+            <td>可掌握的核心功能:<br/>
+(1)能够独立完成项目设计和开发；
+(2)能够完成数据库结构设计；<br/>
+(3)可以使用目前主流框架开发项目；
+(4)能够完成网站及移动应用服务端API开发及维护；<br/>
+可解决的现实问题：<br/><br/>
+提升用户体验，实现页面效果，快速开发，服务器部署，代码管理，前后端交互。<br/><br/>
+可满足各大型企业项目开发的需求</td>
+        </tr>
+</table> 
+
+---
+
+### 第四阶段：项目实战
+
+
+---
+
+### 第五阶段：扩展技术
+
