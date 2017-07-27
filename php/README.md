@@ -2,7 +2,7 @@
 
 ## 二级标题 
 
-<table border="2" bordercolor="black" cellspacing="0" cellpadding="5">  
+<table border="2" bordercolor="#ccc" cellspacing="0" cellpadding="5">  
         <tr>   
             <th>主讲内容</th>  
             <th>技术要点</th>
