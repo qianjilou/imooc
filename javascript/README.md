@@ -59,22 +59,22 @@
         <tr>   
             <td>JavaScript基础</td>  
             <td>JavaScript基本语法、算法基础、常用数据结构、企业编程规范、JavaScript内置对象常用方法、对象的创建方式和this讲解</td> 
-            <td>:white_check_mark:</td>
+            <th>:white_check_mark:</th>
         </tr>  
         <tr>  
             <td>Web API</td>  
             <td>BOM操作 、DOM操作大全 、 特效实现、页面布局、事件处理、浏览器兼容性处理</td>
-            <td>:white_check_mark:</td>
+            <th>:white_check_mark:</th>
         </tr>  
         <tr>  
             <td>JavaScript高级</td>  
             <td>面向对象思想、JavaScript中的对象、JSON、闭包、原型、作用域链、函数的调用方式及this指向、正则表达式 、面向对象理论与实践</td>
-            <td>:white_check_mark:</td>
+            <th>:white_check_mark:</th>
         </tr>
         <tr>  
             <td>jQuery</td>  
             <td>jQuery的优势、jQuery选择器、jQuery中的动画、链式编程和隐式迭代、jQuery插件使用和制作</td>
-            <td>:white_check_mark:</td>
+            <th>:white_check_mark:</th>
         </tr>
         <tr>  
             <th>学习目标</th>  
@@ -106,22 +106,22 @@
         <tr>   
             <td>PHP后台开发</td>  
             <td>php基础语法（变量、数据类型、分支循环语句、数组、函数、参数传递get/post）、动态网站、后台接口开发。数据库基本概念、基本SQL语句、php连接数据库进行基本增删改查、HTTP协议、表单传值、会话技术</td>
-            <td>:white_check_mark:</td>
+            <th>:white_check_mark:</th>
         </tr>  
         <tr>  
             <td>Ajax</td>  
             <td>同步与异步概念、原生Ajax、jQuery的Ajax相关API使用、低层原理分析、缓存问题及处理方式、跨域请求及解决方法</td>
-            <td>:white_check_mark:</td>
+            <th>:white_check_mark:</th>
         </tr>  
         <tr>  
             <td>前端模块化</td>  
             <td>模块化开发基本概念、模块化演变过程分析、设计规范、RequireJS</td>
-            <td>:white_check_mark:</td>
+            <th>:white_check_mark:</th>
         </tr>
         <tr>  
             <td>综合项目</td>  
             <td>后端渲染页面，使用会话技术实现登录，PHP操作MySQL数据库，开发接口，使用AJAX技术，模板引擎ArtTemplate完成页面功能的实现</td>
-            <td>:white_check_mark:</td>
+            <th>:white_check_mark:</th>
         </tr>
         <tr>
             <th>学习目标</th>  
@@ -147,6 +147,7 @@
 <table border="2" bordercolor="black" cellspacing="0" cellpadding="5">  
         <tr>   
             <th>主讲内容</th>  
+            <th>技术要点</th>
             <th>技术要点</th>
         </tr>  
         <tr>   
