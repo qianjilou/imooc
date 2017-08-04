@@ -22,7 +22,7 @@
             <td>使用Photoshop将美工设计的PSD图转成静态页面，了解网站前台页面的开发</td>
             <th>:white_check_mark:</th>
         </tr>
-        <tr>  
+        <tr>
             <td>京东综合项目</td>
             <td>代码分离原则，使用div+css布局完成一个完整的页面，使用CSS3完成动画效果</td>
             <th>:white_check_mark:</th>
