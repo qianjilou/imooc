@@ -3,18 +3,22 @@
         <tr>
             <th>主讲内容</th>  
             <th>技术要点</th>
+            <th>掌握情况</th>
         </tr>  
         <tr>
             <td>1、HTML5</td>  
             <td>HTML简介、HTML标签详解、字符编码的奥秘、Html5新特性与常用标签</td>
+            <th>:white_check_mark:</th>
         </tr>  
         <tr>
             <td>2、CSS3</td>  
-            <td>CSS简介、CSS的引入方式、CSS基本选择器、CSS属性、盒子模型、CSS浮动、CSS3新特性与常用属性、CSS应用案例</td>  
+            <td>CSS简介、CSS的引入方式、CSS基本选择器、CSS属性、盒子模型、CSS浮动、CSS3新特性与常用属性、CSS应用案例</td>
+            <th>:white_check_mark:</th>
         </tr>  
         <tr>  
             <td>3、JavaScript</td>  
             <td>JavaScript简介、JavaScript的引入方式、JavaScript基本语法、流程控制、函数、数组、JavaScript内置对象、JavaScript事件编程、BOM模型、DOM模型</td>
+            <th>:white_check_mark:</th>
         </tr>
         <tr>  
             <th>学习目标</th>  
@@ -27,7 +31,8 @@
 可解决的现实问题：
 能够解决页面布局，效果展示，服务器搭建，模板定制。<br/>
 市场价值：
-熟练掌握和学习后，可满足企业前台搭建要求，根据市场反馈数据来看，薪资普遍的5000元左右</td>
+熟练掌握和学习后，可满足企业前台搭建要求</td>
+             <th>:white_check_mark:</th>
         </tr>
 </table>
 
