@@ -188,7 +188,7 @@
 
 ---
 
-### 第四阶段：移动web开发
+### 第四阶段：大型网站架构
 
 <table border="2" bordercolor="black" cellspacing="0" cellpadding="5">  
         <tr>   
@@ -197,53 +197,77 @@
             <th>掌握情况</th>
         </tr>  
         <tr>   
-            <td>H5C3</td>  
-            <td>CSS3选择器、CSS3新属性、2D转换与过渡、3D转换、动画、Web字体、Flex弹性布局、HTML5多媒体
-、HTML5音频播放、HTML5视频播放、HTML5DOM扩展、HTMl5自定义属性、HTML5data-*配套dom语法地理定位、文件读取、元素拖拽、多媒体加强、应用缓存、历史管理、web存储</td>
+            <td>SVN/Git </td>  
+            <td>SVN概述、SVN软件安装、SVN使用详解、配置多仓库与权限控制、SVN钩子程序</td>
 			<th>:white_check_mark:</th>
-        </tr>  
-        <tr>  
-            <td>H5C3综合案例</td>  
-            <td>能够利用CSS3技术完成常见专题页特效、能够缩合利用3D转换和过渡实现网页特效</td>
+        </tr>
+        <tr>   
+            <td>Linux </td>  
+            <td>Linux系统概述、VMware虚拟机的安装、CentOS系统安装、Shell指令、VI编辑器、Linux内核分析、用户和组、文件操作、网络配置、FTP、LAMP环境 </td>
             <th>:white_check_mark:</th>
-        </tr>  
-        <tr>  
-            <td>canvas</td>  
-            <td>绘图命令、非零环绕原则、绘制形状、文字、图片，平移变换/缩放变换/旋转变换、ECharts数据报表</td>
+        </tr> 
+        <tr>   
+            <td>Nginx与服务器集群 </td>  
+            <td>Nginx概述、LNMP的安装与配置、缓存设置、压缩设置、负载均衡 </td>
+            <th>:white_check_mark:</th>
+        </tr> 
+        <tr>   
+            <td>Memcache </td>  
+            <td>大型项目优化概述、Memcache软件的安装、Memcache指令详解、使用PHP操作Memcache、Memcache应用场景</td>
+            <th>:white_check_mark:</th>
+        </tr> 
+        <tr>   
+            <td>Redis </td>  
+            <td>Redis概述、Redis支持的数据类型、持久化功能、Redis主从模式、PHP操作Redis、消息队列、秒杀功能实现</td>
+            <th>:white_check_mark:</th>
+        </tr> 
+        <tr>   
+            <td>MongoDB </td>  
+            <td>MongoDB概述、MongoDB进阶、MongoDB的权限机制、使用PHP操作MongoDB </td>
+            <th>:white_check_mark:</th>
+        </tr> 
+        <tr>   
+            <td>网站优化（Mysql优化）</td>  
+            <td>MySQL优化概述、MySQL存储引擎、列类型的选择、数据库设计三范式与逆范式、执行计划、索引、分库分表技术 </td>
+            <th>:white_check_mark:</th>
+        </tr> 
+        <tr>   
+            <td>网站优化（Sphinx）</td>  
+            <td>Sphinx概述、安装Sphinx、使用PHP+API接口连接Sphinx、Sphinx的匹配模式、Sphinx增量索引 </td>
             <th>:white_check_mark:</th>
         </tr>
-        <tr>  
-            <td>移动Web</td>  
-            <td>移动端屏幕介绍、移动端浏览器介绍、移动端操作系统介绍、Chrome模拟调试、真机调试 、Viewport、rem、主流适配方案、触屏touch事件、手势封装、CSS预处理器LESS、移动端框架</td>
+        <tr>   
+            <td>网站优化（读写分离）</td>  
+            <td>主从服务器的讲解、主从复制、读写分离实战</td>
             <th>:white_check_mark:</th>
         </tr>
-        <tr>  
-            <td>CSS框架案例</td>  
-            <td>能够通过bootstrap完成响应式页面的开发，能够了解常见的移动端UI框架</td>
+        <tr>   
+            <td>网站优化（页面静态化）</td>  
+            <td>页面静态化技术简介、真静态、伪静态 </td>
             <th>:white_check_mark:</th>
         </tr>
-        <tr>  
-            <td>Git</td>
-            <td>命令行、Git的基本使用、对比文件差异、还原、合并 ，回滚操作，远端仓库操作、使用github创建远端仓库，gitlab创建远端私有仓库、gitlab与github区别，生成ssh key 并添加到github上和gitlab上</td>
+        <tr>   
+            <td>Laravel </td>  
+            <td>Laravel概述、Laravel的安装、目录分析、控制器、路由、视图、HTTP请求与响应、数据库、模型、Laravel实用项、Redis数据库、消息队列 </td>
+            <th>:white_check_mark:</th>
+        </tr>
+        <tr>   
+            <td>在线教育平台 </td>  
+            <td>项目概述、需求分析、开发流程、Composer、路由配置、Postman、MVC、直播推流、直播拉流、课程购买、试题库</td>
             <th>:white_check_mark:</th>
         </tr>
         <tr>
             <th>学习目标</th>  
-            <td>
-可掌握的核心能力：<br/>
-（1）熟练使用HTML5&CSS3实现网页特炫效果；<br/>
-（2）掌握常用移动端框架使用方法；<br/>
-（3）掌握常用移动端调试方法；<br/>
-（4）掌握常用移动端适配方法；<br/>
-（5）熟练使用移动端touch事件及手势封装；<br/>
-（6）掌握响应式布局的写法；<br/>
-（7）掌握CSS预处理器less的使用；<br/>
-（8）掌握使用GIT对比文件差异、还原、合并，能够解决远端仓库与本地仓库合并时的冲突；<br/>
-（9）掌握移动端整站开发架构搭建、项目开发、性能优化等整站开发能力。<br/><br/>
+            <td>可掌握的核心能力：<br/>
+(1)能够对系统架构进行分析和设计;<br/>
+(2)控制开发产品质量，参与制定开发规范;<br/>
+(3)能对现有项目进行性能调优;<br/>
+(4)参与网站项目需求分析，根据项目需求设计提供优化技术方案;<br/>
+(5)改进公司现有框架，提高产品质量。<br/><br/>
 可解决的现实问题：<br/>
-学生具备移动端web开发能力,拥有根据设计图转化为对应的web,同时处理移动设备适配问题。能够掌握工作中多人开发的操作方式。<br/><br/>
-市场价值：<br/>
-备移动web开发能力,能够和后台交互，独立开发移动端的交互网站。<br/>
+服务器高级部署优化，互联网常用技术。MySQL优化、读写分离、Nginx服务器集群、Laravel框架、千万级并发商城系统开发。<br/><br/>
+可拥有的市场价值：<br/>
+真正掌握互联网系统架构设计思想，可实现对门户网站、商城系统、办公系统等项目进行系统性能调优
 </td>
         </tr>
 </table> 
