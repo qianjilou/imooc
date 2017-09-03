@@ -28,6 +28,7 @@ boostrap4 断点设置
 >= 75*16 = 1200px(超大屏幕)
 @medie (min-width:1380px){...}
 
+![image](https://raw.githubusercontent.com/qianjilou/web/master/media/bts.jpg)
 
 刚入前端，公司的新项目中打算引入bootstrap框架，最近学习bootstrap的时候，在栅格部分遇到了一些问题：
 下图是bootstrap原生的栅格参数：
