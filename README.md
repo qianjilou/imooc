@@ -11,7 +11,7 @@
 
 #####  [PHP进阶：面向对象及TP5框架初识](https://github.com/qianjilou/imooc/blob/master/php/PHP%E8%BF%9B%E9%98%B6%EF%BC%9A%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E5%8F%8ATP5%E6%A1%86%E6%9E%B6%E5%88%9D%E8%AF%86.md)
 
-#####  [ECShop3从基本使用到二次开发](#https://github.com/qianjilou/imooc/blob/master/php/ECShop3%E4%BB%8E%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8%E5%88%B0%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91.md)
+#####  [ECShop3从基本使用到二次开发](https://github.com/qianjilou/imooc/blob/master/php/ECShop3%E4%BB%8E%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8%E5%88%B0%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91.md)
 
 #####  [PHP高级应用及Laravel5初识](https://github.com/qianjilou/imooc/blob/master/php/PHP%E9%AB%98%E7%BA%A7%E5%BA%94%E7%94%A8%E5%8F%8ALaravel5%E5%88%9D%E8%AF%86.md)
 
