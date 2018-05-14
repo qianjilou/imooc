@@ -1,23 +1,41 @@
-## web前端相关笔记
-##  我的学习计划(网站建设)
+## 慕课网学习笔记
+##  
 
-### 一：[HTML+DIV+CSS零基础快速入门到制作企业站视频课程](https://github.com/qianjilou/web/blob/master/first.md)(共7小时18分钟)
+### 
 
-
-### 二：[使用织梦dedecms建设医疗网站实战视频课程](https://github.com/qianjilou/web/mylife/blob/master/second.md)(共14小时44分钟)
-
+### 
 
 
+---
 
-## [javascript](https://github.com/qianjilou/web/tree/master/javascript)
+### PHP系列 
 
-## [php](https://github.com/qianjilou/web/tree/master/php)
+#### 职业路径
+
+#####  PHP从基础语法到原生项目开发 
+
+#####  PHP进阶：面向对象及TP5框架初识
+
+#####  ECShop3从基本使用到二次开发
+
+#####  PHP高级应用及Laravel5初识
+
+#### 实战
+
+#####  快速上手Linux 玩转典型应用
+
+#####  前端到后台ThinkPHP开发整站
+
+#####  Thinkphp 5.0 仿百度糯米开发多商家电商平台
 
 
-## [html5](https://github.com/qianjilou/web/tree/master/html5)  
-
-## [响应式布局](https://github.com/qianjilou/web/tree/master/media)  
+---
 
 
+### 小程序系列 
+
+#####  微信小程序入门与实战 常用组件API开发技巧项目实战 
+
+#####  微信小程序商城构建全栈应用
 
 
